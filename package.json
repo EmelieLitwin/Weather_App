@@ -1,0 +1,12 @@
+{
+  "name": "weather-app",
+  "version": "0.0.0",
+  "description": "WeatherApp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

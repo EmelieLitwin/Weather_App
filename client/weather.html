@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+  <body>
+      <form class="weatherLocation">
+          <input placeholder="Search city name..." type="text" /><button>Seach</button>
+      </form>
+
+      <div class="widget">
+          <h1 class="location">City, Country</h1>
+          <table>
+              <thead>
+                  <tr class="weekDays">
+                      <th></th>
+                      <th>Today</th>
+                      <th class="weekday2">Tomorrow</th>
+                      <th class="weekday3">Weekday2</th>
+                      <th class="weekday4">Weekday4</th>
+                      <th class="weekday5">Weekday5</th>
+                  </tr>
+                  <tr class="dates">
+                      <td></td>
+                      <td class="date1"></td>
+                      <td class="date2"></td>
+                      <td class="date3"></td>
+                      <td class="date4"></td>
+                      <td class="date5"></td>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="weatherIcons">
+                      <td></td>
+                      <td><img class="icon1" src="http://openweathermap.org/img/wn/02d@2x.png"></img></td>
+                      <td><img class="icon2" src="http://openweathermap.org/img/wn/02d@2x.png"></img></td>
+                      <td><img class="icon3" src="http://openweathermap.org/img/wn/02d@2x.png"></img></td>
+                      <td><img class="icon4" src="http://openweathermap.org/img/wn/02d@2x.png"></img></td>
+                      <td><img class="icon5" src="http://openweathermap.org/img/wn/02d@2x.png"></img></td>
+                  </tr>
+                  <tr class="description">
+                      <td></td>
+                      <td class="description1"></td>
+                      <td class="description2"></td>
+                      <td class="description3"></td>
+                      <td class="description4"></td>
+                      <td class="description5"></td>
+                  </tr>
+                  <tr class="temperature">
+                      <td>Temperature</td>
+                      <td class="temp1">°C</td>
+                      <td class="temp2">°C</td>
+                      <td class="temp3">°C</td>
+                      <td class="temp4">°C</td>
+                      <td class="temp5">°C</td>
+
+                  </tr>
+
+                  <tr class="wind">
+                      <td>Wind speed</td>
+                      <td class="wind1">m/s</td>
+                      <td class="wind2">m/s</td>
+                      <td class="wind3">m/s</td>
+                      <td class="wind4">m/s</td>
+                      <td class="wind5">m/s</td>
+                  </tr>
+                  <tr class="humidity">
+                      <td>Humidity</td>
+                      <td class="humidity1"> %</td>
+                      <td class="humidity2"> %</td>
+                      <td class="humidity3"> %</td>
+                      <td class="humidity4"> %</td>
+                      <td class="humidity5"> %</td>
+                  </tr>
+                  <tr class="rain">
+                      <td>Precipitation</td>
+                      <td class="rain1"> mm/h</td>
+                      <td class="rain2"> mm/h</td>
+                      <td class="rain3"> mm/h</td>
+                      <td class="rain4"> mm/h</td>
+                      <td class="rain5"> mm/h</td>
+                  </tr>
+
+              </tbody>
+          </table>
+  </body>
+<script src="/js/script.js"></script>
+<script src="/js/countries.js"></script>
+</html>
